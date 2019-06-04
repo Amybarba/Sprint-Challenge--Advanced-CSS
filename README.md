@@ -33,14 +33,26 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+<!-- Adaptive and Responsive use media queries in order for the design to adapt to desktop, tablet or phone.
+Responsive take longer because you must build responsive units in order to work with many different screen 
+sizes where as adaptive can be coded fast because of restrictive widths coded at each media query.
+Responsive is based on viewport verses adaptive is hard coded to a fixed width. -->
 
 2. Describe what it means to be mobile first vs desktop first.
+<!-- Mobile first means the code is built with a mobile screen size first using media queries and then you must add to them as the screen sized gets bigger by nesting more min-width coding. -->
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+<!-- The 62.5% font size command in the body  of a project gives you a "safe" standard calculation that basically translates to the "tens" system for using rem as a measurement. Example 1.6rem would equal 16 pixels. So if you 
+know pixels it is easy to translate. -->
 
 4. How would you describe preprocessing to someone new to CSS?
+<!-- Preprocessing is a program built into your platform that allows you to use "shorthand" for repetitive code. 
+It translates those codes that you keep writing into one command and writes it out for you. For example I write 
+display: flex and width: 100% and align-items: center repetitively I could make a @symmetry equal all three of those 
+codes and just call it when writing code and the "LESS" preprocessor translates that over to index.css -->
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+<!-- Favorite concept refer to answer to question number 4, I like my design to be symmetrical and balanced including with colors, preprocessing allows this with ease. The concept that gives me the most trouble is when I need to isolate certain elements and remember that I assigned certain variables to them. -->
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
